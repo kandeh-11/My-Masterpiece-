@@ -13,9 +13,26 @@ while larger_num>smaller_num:
 '''
 
 #Question 2
+'''
 word = input("Enter a word: ")
 result = ""
 
 for i in range(1, len(word) - 1, 2):
     result += word[i]
 print(f"Output = {result}")
+'''
+#Question 3
+'''
+for num in range(37, 1051):  
+    if num % 2 == 0:          
+        print(num)
+'''
+
+  #Question 4
+while True:
+    user_input = input('Enter a letter: ')
+    if user_input == "done":
+        break
+    else:
+        word += user_input
+        print(f"The final word is {word}")
