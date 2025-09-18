@@ -28,7 +28,8 @@ for num in range(37, 1051):
         print(num)
 '''
 
-  #Question 4
+  #Question 
+'''
 while True:
     user_input = input('Enter a letter: ')
     if user_input == "done":
@@ -36,3 +37,15 @@ while True:
     else:
         word += user_input
         print(f"The final word is {word}")
+'''
+#Question 5
+'''
+for num in range(50, 518):  
+    if num % 2 == 1:          
+        print(num)
+
+    Or
+for number in range(51, 518, 2):
+        print(number)
+'''
+#Question 6
