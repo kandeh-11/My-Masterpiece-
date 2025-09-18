@@ -49,3 +49,11 @@ for number in range(51, 518, 2):
         print(number)
 '''
 #Question 6
+total = 0
+while True:
+    num = int(input("Enter an integer (negative number to stop): "))
+    if num < 0:
+        break   # stop the loop if number is negative
+    total += num  # add the number to the total if it's not negative
+
+print("The sum of the numbers is:", total)
