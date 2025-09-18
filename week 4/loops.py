@@ -17,4 +17,5 @@ word = input("Enter a word: ")
 result = ""
 
 for i in range(1, len(word) - 1, 2):
+    result += word[i]
 print(f"Output = {result}")
