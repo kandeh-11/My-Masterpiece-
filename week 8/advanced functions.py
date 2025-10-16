@@ -1,6 +1,7 @@
 # Written by Ousman
 
 # Question 4
+'''
 def find_winner(player1 = "roclk", player2 = "roc"):
     if player1 == player2:
         return "It's a tie!"
@@ -10,3 +11,19 @@ def find_winner(player1 = "roclk", player2 = "roc"):
         return "Player 2 wins!"     
     
 print(find_winner("rock", "scissors")) 
+'''
+
+# Question 8
+def decending_order(num1, num2 = 15 , num3 = 3):
+    a, b, c = num1, num2, num3
+    if a < b:
+        a, b = b, a
+
+
+    if a < c:
+        a, c = c, a
+
+    if b < c:
+        b, c = c, b
+
+    return [a, b, c]
