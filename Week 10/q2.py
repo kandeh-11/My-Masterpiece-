@@ -6,12 +6,12 @@ class Student:
 
     def get_name(self):
         return self.name
-    def set_name(self, name):
+    def set_name(self, value):
         self.name = value
 
     def get_major(self):
         return self.major
-    def set_major(self, major):
+    def set_major(self, values):
         self.major = value
 
 
