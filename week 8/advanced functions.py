@@ -14,6 +14,7 @@ print(find_winner("rock", "scissors"))
 '''
 
 # Question 8
+'''
 def decending_order(num1, num2 = 15 , num3 = 3):
     a, b, c = num1, num2, num3
     if a < b:
@@ -27,3 +28,24 @@ def decending_order(num1, num2 = 15 , num3 = 3):
         b, c = c, b
 
     return [a, b, c]
+'''
+# Question 15
+'''
+def is_negtsive(num):
+    if num < 0:
+        return True
+    else:
+        return False
+
+def is_odd(num):
+    if num % 2 != 0:
+        return True
+    else:
+        return False
+    '''
+
+class plane:
+    def __init__(self, _name):
+        self.name = _name
+
+planet1 = P. lanet ("x25")

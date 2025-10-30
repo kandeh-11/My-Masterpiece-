@@ -34,3 +34,4 @@ def convert_knuts(knuts=450):
 			output = output + str(remaining_knuts) + " knut"
 	
 	return output
+    print(convert_knuts(450))  # Example usage
